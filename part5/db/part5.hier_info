@@ -1,0 +1,521 @@
+|part5
+SW[0] => SW[0].IN3
+SW[1] => SW[1].IN3
+SW[2] => SW[2].IN3
+SW[3] => SW[3].IN3
+SW[4] => SW[4].IN3
+SW[5] => SW[5].IN3
+SW[6] => SW[6].IN3
+SW[7] => SW[7].IN3
+SW[8] => SW[8].IN3
+SW[9] => SW[9].IN3
+SW[10] => SW[10].IN3
+SW[11] => SW[11].IN3
+SW[12] => SW[12].IN3
+SW[13] => SW[13].IN3
+SW[14] => SW[14].IN3
+SW[15] => SW[15].IN3
+SW[16] => SW[16].IN1
+SW[17] => ~NO_FANOUT~
+LEDG[0] <= S0[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= S0[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[2] <= S0[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[3] <= S0[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[4] <= S1[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[5] <= S1[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[6] <= S1[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[7] <= S1[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[8] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+HEX7[6] <= b2d_7seg:H7.port1
+HEX7[5] <= b2d_7seg:H7.port1
+HEX7[4] <= b2d_7seg:H7.port1
+HEX7[3] <= b2d_7seg:H7.port1
+HEX7[2] <= b2d_7seg:H7.port1
+HEX7[1] <= b2d_7seg:H7.port1
+HEX7[0] <= b2d_7seg:H7.port1
+HEX6[6] <= b2d_7seg:H6.port1
+HEX6[5] <= b2d_7seg:H6.port1
+HEX6[4] <= b2d_7seg:H6.port1
+HEX6[3] <= b2d_7seg:H6.port1
+HEX6[2] <= b2d_7seg:H6.port1
+HEX6[1] <= b2d_7seg:H6.port1
+HEX6[0] <= b2d_7seg:H6.port1
+HEX5[6] <= b2d_7seg:H5.port1
+HEX5[5] <= b2d_7seg:H5.port1
+HEX5[4] <= b2d_7seg:H5.port1
+HEX5[3] <= b2d_7seg:H5.port1
+HEX5[2] <= b2d_7seg:H5.port1
+HEX5[1] <= b2d_7seg:H5.port1
+HEX5[0] <= b2d_7seg:H5.port1
+HEX4[6] <= b2d_7seg:H4.port1
+HEX4[5] <= b2d_7seg:H4.port1
+HEX4[4] <= b2d_7seg:H4.port1
+HEX4[3] <= b2d_7seg:H4.port1
+HEX4[2] <= b2d_7seg:H4.port1
+HEX4[1] <= b2d_7seg:H4.port1
+HEX4[0] <= b2d_7seg:H4.port1
+HEX3[6] <= <VCC>
+HEX3[5] <= <VCC>
+HEX3[4] <= <VCC>
+HEX3[3] <= <VCC>
+HEX3[2] <= <VCC>
+HEX3[1] <= <VCC>
+HEX3[0] <= <VCC>
+HEX2[6] <= circuitB:H2.port1
+HEX2[5] <= circuitB:H2.port1
+HEX2[4] <= circuitB:H2.port1
+HEX2[3] <= circuitB:H2.port1
+HEX2[2] <= circuitB:H2.port1
+HEX2[1] <= circuitB:H2.port1
+HEX2[0] <= circuitB:H2.port1
+HEX1[6] <= b2d_7seg:H1.port1
+HEX1[5] <= b2d_7seg:H1.port1
+HEX1[4] <= b2d_7seg:H1.port1
+HEX1[3] <= b2d_7seg:H1.port1
+HEX1[2] <= b2d_7seg:H1.port1
+HEX1[1] <= b2d_7seg:H1.port1
+HEX1[0] <= b2d_7seg:H1.port1
+HEX0[6] <= b2d_7seg:H0.port1
+HEX0[5] <= b2d_7seg:H0.port1
+HEX0[4] <= b2d_7seg:H0.port1
+HEX0[3] <= b2d_7seg:H0.port1
+HEX0[2] <= b2d_7seg:H0.port1
+HEX0[1] <= b2d_7seg:H0.port1
+HEX0[0] <= b2d_7seg:H0.port1
+
+
+|part5|b2d_7seg:H7
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|b2d_7seg:H6
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|b2d_7seg:H5
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|b2d_7seg:H4
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator:C0
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN1
+V[3] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator:C1
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN1
+V[3] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator:C2
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN1
+V[3] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator:C3
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN1
+V[3] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA0
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA1
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA2
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA3
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator9:C4
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN0
+V[3] => z.IN1
+V[3] => z.IN1
+V[4] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|circuitA:AA
+V[0] => A[0].DATAIN
+V[1] => A.IN0
+V[1] => A.IN0
+V[1] => A.IN0
+V[1] => A[1].DATAIN
+V[2] => A.IN1
+V[3] => A.IN1
+V[3] => A.IN1
+A[0] <= V[0].DB_MAX_OUTPUT_PORT_TYPE
+A[1] <= V[1].DB_MAX_OUTPUT_PORT_TYPE
+A[2] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A[3] <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|mux_4bit_2to1:MUX0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+U[0] => M.IN1
+U[1] => M.IN1
+U[2] => M.IN1
+U[3] => M.IN1
+V[0] => M.IN1
+V[1] => M.IN1
+V[2] => M.IN1
+V[3] => M.IN1
+M[0] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[2] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[3] <= M.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|b2d_7seg:H0
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA4
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA5
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA6
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|fulladder:FA7
+a => d.IN0
+b => d.IN1
+b => co.IN1
+ci => s.IN1
+ci => co.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|comparator9:C5
+V[0] => ~NO_FANOUT~
+V[1] => z.IN0
+V[2] => z.IN0
+V[3] => z.IN1
+V[3] => z.IN1
+V[4] => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|circuitA:AB
+V[0] => A[0].DATAIN
+V[1] => A.IN0
+V[1] => A.IN0
+V[1] => A.IN0
+V[1] => A[1].DATAIN
+V[2] => A.IN1
+V[3] => A.IN1
+V[3] => A.IN1
+A[0] <= V[0].DB_MAX_OUTPUT_PORT_TYPE
+A[1] <= V[1].DB_MAX_OUTPUT_PORT_TYPE
+A[2] <= A.DB_MAX_OUTPUT_PORT_TYPE
+A[3] <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|mux_4bit_2to1:MUX1
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+s => M.IN0
+U[0] => M.IN1
+U[1] => M.IN1
+U[2] => M.IN1
+U[3] => M.IN1
+V[0] => M.IN1
+V[1] => M.IN1
+V[2] => M.IN1
+V[3] => M.IN1
+M[0] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[1] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[2] <= M.DB_MAX_OUTPUT_PORT_TYPE
+M[3] <= M.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|circuitB:H2
+z => SSD[5].DATAIN
+z => SSD[0].DATAIN
+z => SSD[3].DATAIN
+z => SSD[4].DATAIN
+SSD[6] <= <VCC>
+SSD[5] <= z.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= z.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= z.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= <GND>
+SSD[1] <= <GND>
+SSD[0] <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part5|b2d_7seg:H1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN1
+X[0] => SSD.IN0
+X[0] => SSD.IN0
+X[0] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[1] => SSD.IN1
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN0
+X[2] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+X[3] => SSD.IN1
+SSD[6] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[5] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[4] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[3] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[2] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[1] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+SSD[0] <= SSD.DB_MAX_OUTPUT_PORT_TYPE
+
+

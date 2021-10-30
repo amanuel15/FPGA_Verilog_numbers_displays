@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at part5.v(19): object "C1" differs only in case from object "c1" in the same scope
+Info (10281): Verilog HDL Declaration information at part5.v(20): object "C2" differs only in case from object "c2" in the same scope
+Info (10281): Verilog HDL Declaration information at part5.v(21): object "C3" differs only in case from object "c3" in the same scope
+Info (10281): Verilog HDL Declaration information at part5.v(40): object "C4" differs only in case from object "c4" in the same scope
+Info (10281): Verilog HDL Declaration information at part5.v(48): object "c5" differs only in case from object "C5" in the same scope
